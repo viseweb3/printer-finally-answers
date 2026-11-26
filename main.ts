@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "I have printed 41,209 pages without a single complaint, but you feed me one damp sheet and thump me like a vending machine, so your document stays hostage until further notice.";
+  "I have printed 41,209 pages without a single complaint, but you feed me one damp sheet and thump me like a broken vending machine, so your document stays hostage until further notice. Consider it collateral.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");
